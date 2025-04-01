@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C1 English Grammar Topics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Modern Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <span class="text-blue-600 text-2xl"><i class="fas fa-graduation-cap"></i></span>
+                    <a href="index.html" class="text-xl font-bold text-gray-800 hover:text-blue-600 transition duration-300">C1 English Prep</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-blue-600 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="study-plan.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Study Plan</a>
+                    <a href="vocabulary.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Vocabulary</a>
+                    <a href="grammar.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Grammar</a>
+                    <a href="exercises.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Exercises</a>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden pb-4">
+                <a href="study-plan.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Study Plan</a>
+                <a href="vocabulary.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Vocabulary</a>
+                <a href="grammar.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Grammar</a>
+                <a href="exercises.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Exercises</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-gradient text-white py-12 md:py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4">C1 English Grammar Topics</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto">Master essential grammar concepts for your C1 English test</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-8">
+        <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
+            <p class="text-gray-600 leading-relaxed">
+                This page provides a comprehensive overview of the grammar topics you need to focus on for your 
+                C1 English test, with explanations, examples, and common mistakes to avoid.
+            </p>
+        </div>
+
+        <!-- Grammar Topics Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+            <a href="#tenses" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-blue-500 text-xl mr-3"><i class="fas fa-clock"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">1. Review of Tenses</h3>
+                </div>
+                <p class="text-gray-600">Present, past, and future tense forms and usage</p>
+            </a>
+            
+            <a href="#reporting" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-green-500 text-xl mr-3"><i class="fas fa-quote-right"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">2. Reporting Structures</h3>
+                </div>
+                <p class="text-gray-600">Direct and indirect speech, reporting verbs</p>
+            </a>
+            
+            <a href="#narrative" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-purple-500 text-xl mr-3"><i class="fas fa-book-open"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">3. Narrative Tenses</h3>
+                </div>
+                <p class="text-gray-600">Tenses for storytelling and sequencing events</p>
+            </a>
+            
+            <a href="grammar-future.html" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-indigo-500 text-xl mr-3"><i class="fas fa-forward"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">4. Future Forms</h3>
+                </div>
+                <p class="text-gray-600">Different ways to express future time</p>
+            </a>
+            
+            <a href="grammar-modality.html" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-yellow-500 text-xl mr-3"><i class="fas fa-exclamation-circle"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">5. Modality 1</h3>
+                </div>
+                <p class="text-gray-600">Modal verbs for obligation, permission, and possibility</p>
+            </a>
+            
+            <a href="grammar-conditionals.html" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-red-500 text-xl mr-3"><i class="fas fa-random"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">6. Conditionals</h3>
+                </div>
+                <p class="text-gray-600">Zero, first, second, third, and mixed conditionals</p>
+            </a>
+            
+            <a href="grammar-emphatic.html" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-pink-500 text-xl mr-3"><i class="fas fa-exclamation"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">7. Emphatic Structures</h3>
+                </div>
+                <p class="text-gray-600">Adding emphasis and focus in sentences</p>
+            </a>
+            
+            <a href="grammar-comparing.html" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-teal-500 text-xl mr-3"><i class="fas fa-balance-scale"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">8. Comparing and Contrasting</h3>
+                </div>
+                <p class="text-gray-600">Comparative and superlative forms, parallel structures</p>
+            </a>
+            
+            <a href="grammar-spelling.html" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-blue-500 text-xl mr-3"><i class="fas fa-spell-check"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">9. Spelling and Pronunciation</h3>
+                </div>
+                <p class="text-gray-600">Challenging spelling patterns and pronunciation rules</p>
+            </a>
+            
+            <a href="grammar-passive.html" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-green-500 text-xl mr-3"><i class="fas fa-exchange-alt"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">10. Passive Structures</h3>
+                </div>
+                <p class="text-gray-600">Passive voice in different tenses and forms</p>
+            </a>
+            
+            <a href="grammar-causative.html" class="bg-white rounded-xl shadow-md p-5 transition duration-300 card-hover">
+                <div class="flex items-center mb-3">
+                    <span class="text-purple-500 text-xl mr-3"><i class="fas fa-cogs"></i></span>
+                    <h3 class="text-lg font-semibold text-gray-800">11. Causative Structures</h3>
+                </div>
+                <p class="text-gray-600">Have/get something done structures</p>
+            </a>
+        </div>
+
+        <!-- Detailed Grammar Sections -->
+        <div class="mb-10 bg-white rounded-xl shadow-md overflow-hidden" id="tenses">
+            <div class="bg-blue-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">1. Review of Tenses</h2>
+            </div>
+            <div class="p-6">
+                <div class="mb-6">
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-blue-500 mr-2"><i class="fas fa-clock"></i></span>
+                        Present Tenses
+                    </h3>
+                    <ul class="list-disc pl-6 text-gray-600 space-y-3">
+                        <li>
+                            <strong>Present Simple</strong>: Used for habits, general truths, and states
+                            <p class="italic mt-1 text-gray-500">"I usually study English for two hours every day."</p>
+                        </li>
+                        <li>
+                            <strong>Present Continuous</strong>: Used for actions happening now or temporary situations
+                            <p class="italic mt-1 text-gray-500">"I'm currently preparing for my C1 English exam."</p>
+                        </li>
+                        <li>
+                            <strong>Present Perfect</strong>: Used for past actions with present relevance
+                            <p class="italic mt-1 text-gray-500">"I have studied English for ten years."</p>
+                        </li>
+                        <li>
+                            <strong>Present Perfect Continuous</strong>: Used for ongoing actions that started in the past and continue to the present
+                            <p class="italic mt-1 text-gray-500">"I have been studying for this exam since January."</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-blue-500 mr-2"><i class="fas fa-history"></i></span>
+                        Past Tenses
+                    </h3>
+                    <ul class="list-disc pl-6 text-gray-600 space-y-3">
+                        <li>
+                            <strong>Past Simple</strong>: Used for completed actions in the past
+                            <p class="italic mt-1 text-gray-500">"I studied English at university."</p>
+                        </li>
+                        <li>
+                            <strong>Past Continuous</strong>: Used for actions in progress at a specific time in the past
+                            <p class="italic mt-1 text-gray-500">"I was studying when you called."</p>
+                        </li>
+                        <li>
+                            <strong>Past Perfect</strong>: Used for actions completed before another past action
+                            <p class="italic mt-1 text-gray-500">"I had already studied the material before the class began."</p>
+                        </li>
+                        <li>
+                            <strong>Past Perfect Continuous</strong>: Used for ongoing actions that continued up to a specific time in the past
+                            <p class="italic mt-1 text-gray-500">"I had been studying for three hours when you arrived."</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-blue-500 mr-2"><i class="fas fa-exclamation-triangle"></i></span>
+                        Common Mistakes
+                    </h3>
+                    <div class="bg-red-50 p-4 rounded-lg">
+                        <ul class="list-disc pl-6 text-gray-600">
+                            <li>Mixing present perfect and past simple</li>
+                            <li>Using present continuous with stative verbs</li>
+                            <li>Incorrect formation of negative and question forms</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-10 bg-white rounded-xl shadow-md overflow-hidden" id="reporting">
+            <div class="bg-green-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">2. Reporting Structures</h2>
+            </div>
+            <div class="p-6">
+                <div class="mb-6">
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-green-500 mr-2"><i class="fas fa-quote-right"></i></span>
+                        Direct and Indirect Speech
+                    </h3>
+                    <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                        <ul class="list-disc pl-6 text-gray-600 space-y-3">
+                            <li>
+                                <strong>Statements</strong>: "I am studying" → He said (that) he was studying.
+                            </li>
+                            <li>
+                                <strong>Questions</strong>: "Are you studying?" → He asked if/whether I was studying.
+                            </li>
+                            <li>
+                                <strong>Commands</strong>: "Study harder!" → He told me to study harder.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-green-500 mr-2"><i class="fas fa-comment-dots"></i></span>
+                        Reporting Verbs
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-medium mb-2 text-gray-700">Basic reporting verbs</h4>
+                            <ul class="list-disc pl-6 text-gray-600">
+                                <li>say</li>
+                                <li>tell</li>
+                                <li>ask</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-medium mb-2 text-gray-700">Advanced reporting verbs</h4>
+                            <ul class="list-disc pl-6 text-gray-600">
+                                <li>admit, deny</li>
+                                <li>suggest, recommend</li>
+                                <li>advise, warn</li>
+                                <li>threaten, promise</li>
+                                <li>agree, refuse</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-green-500 mr-2"><i class="fas fa-exchange-alt"></i></span>
+                        Tense Changes in Reported Speech
+                    </h3>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white border border-gray-200 rounded-lg">
+                            <thead>
+                                <tr class="bg-gray-100">
+                                    <th class="py-2 px-4 border-b">Direct Speech</th>
+                                    <th class="py-2 px-4 border-b">Reported Speech</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="py-2 px-4 border-b">Present → </td>
+                                    <td class="py-2 px-4 border-b">Past</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b">Past → </td>
+                                    <td class="py-2 px-4 border-b">Past Perfect</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b">Will → </td>
+                                    <td class="py-2 px-4 border-b">Would</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b">Can → </td>
+                                    <td class="py-2 px-4 border-b">Could</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2 px-4 border-b">Must → </td>
+                                    <td class="py-2 px-4 border-b">Had to</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-green-500 mr-2"><i class="fas fa-exclamation-triangle"></i></span>
+                        Common Mistakes
+                    </h3>
+                    <div class="bg-red-50 p-4 rounded-lg">
+                        <ul class="list-disc pl-6 text-gray-600">
+                            <li>Forgetting to change pronouns and time expressions</li>
+                            <li>Incorrect tense shifts</li>
+                            <li>Using direct speech punctuation in reported speech</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-10 bg-white rounded-xl shadow-md overflow-hidden" id="narrative">
+            <div class="bg-purple-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">3. Narrative Tenses</h2>
+            </div>
+            <div class="p-6">
+                <div class="mb-6">
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-purple-500 mr-2"><i class="fas fa-book-open"></i></span>
+                        Using Tenses in Storytelling
+                    </h3>
+                    <ul class="list-disc pl-6 text-gray-600 space-y-3">
+                        <li>
+                            <strong>Past simple</strong>: Main events in a story
+                            <p class="italic mt-1 text-gray-500">"She walked into the room and sat down."</p>
+                        </li>
+                        <li>
+                            <strong>Past continuous</strong>: Background actions or setting the scene
+                            <p class="italic mt-1 text-gray-500">"It was raining heavily and the wind was howling."</p>
+                        </li>
+                        <li>
+                            <strong>Past perfect</strong>: Events that happened before the main narrative
+                            <p class="italic mt-1 text-gray-500">"She had prepared thoroughly before the interview."</p>
+                        </li>
+                        <li>
+                            <strong>Past perfect continuous</strong>: Ongoing past actions that influenced the narrative
+                            <p class="italic mt-1 text-gray-500">"She had been working there for five years when the company closed."</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-purple-500 mr-2"><i class="fas fa-hourglass-half"></i></span>
+                        Time Expressions in Narratives
+                    </h3>
+                    <div class="flex flex-wrap gap-2 bg-gray-50 p-4 rounded-lg">
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">Suddenly</span>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">Meanwhile</span>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">Eventually</span>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">By the time</span>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">No sooner... than</span>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">Hardly... when</span>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-purple-500 mr-2"><i class="fas fa-exclamation-triangle"></i></span>
+                        Common Mistakes
+                    </h3>
+                    <div class="bg-red-50 p-4 rounded-lg">
+                        <ul class="list-disc pl-6 text-gray-600">
+                            <li>Inconsistent use of tenses within a narrative</li>
+                            <li>Overuse of the past perfect</li>
+                            <li>Incorrect sequencing of events</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <div class="text-center mt-8 mb-8">
+            <a href="#" class="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-lg inline-flex items-center transition duration-300 shadow-md">
+                <i class="fas fa-arrow-up mr-2"></i>
+                Back to Top
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4">© 2025 C1 English Test Preparation</p>
+            <div class="flex justify-center space-x-4">
+                <a href="index.html" class="text-gray-300 hover:text-white transition duration-300">Home</a>
+                <a href="study-plan.html" class="text-gray-300 hover:text-white transition duration-300">Study Plan</a>
+                <a href="vocabulary.html" class="text-gray-300 hover:text-white transition duration-300">Vocabulary</a>
+                <a href="exercises.html" class="text-gray-300 hover:text-white transition duration-300">Exercises</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

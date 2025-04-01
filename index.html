@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C1 English Test Preparation</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .answer-section {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Modern Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <span class="text-blue-600 text-2xl"><i class="fas fa-graduation-cap"></i></span>
+                    <a href="index.html" class="text-xl font-bold text-gray-800 hover:text-blue-600 transition duration-300">C1 English Prep</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-blue-600 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="study-plan.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Study Plan</a>
+                    <a href="vocabulary.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Vocabulary</a>
+                    <a href="grammar.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Grammar</a>
+                    <a href="exercises.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Exercises</a>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden pb-4">
+                <a href="study-plan.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Study Plan</a>
+                <a href="vocabulary.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Vocabulary</a>
+                <a href="grammar.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Grammar</a>
+                <a href="exercises.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Exercises</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-gradient text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">C1 English Test Preparation</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Your comprehensive 14-day study plan and resources to ace your C1 English exam</p>
+            <a href="study-plan.html" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-full font-semibold text-lg inline-block transition duration-300 shadow-md">Start Studying</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-12">
+        <!-- About Section -->
+        <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-12">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-gray-800">About This Website</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+                Welcome to your personalized C1 English test preparation website! This site contains all the resources 
+                you need to prepare for your upcoming C1 English test in 14 days. The materials are organized into 
+                four main sections to help you study efficiently and effectively.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-center">
+                        <span class="text-blue-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                        A comprehensive 14-day study plan
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-blue-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                        Thematic vocabulary organized by 10 key topics
+                    </li>
+                </ul>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-center">
+                        <span class="text-blue-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                        Detailed grammar explanations and examples
+                    </li>
+                    <li class="flex items-center">
+                        <span class="text-blue-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                        Practice exercises for each grammar topic
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Resource Cards -->
+        <h2 class="text-2xl md:text-3xl font-semibold mb-8 text-center text-gray-800">Study Resources</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <!-- Study Plan Card -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden transition duration-300 card-hover">
+                <div class="bg-blue-600 text-white p-4 flex items-center justify-center">
+                    <i class="fas fa-calendar-alt text-3xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Study Plan</h3>
+                    <p class="text-gray-600 mb-4">
+                        Follow our structured 14-day plan to cover all necessary material before your test.
+                    </p>
+                    <a href="study-plan.html" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                        View Study Plan
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Vocabulary Card -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden transition duration-300 card-hover">
+                <div class="bg-green-600 text-white p-4 flex items-center justify-center">
+                    <i class="fas fa-book text-3xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Vocabulary</h3>
+                    <p class="text-gray-600 mb-4">
+                        Explore vocabulary organized by 10 thematic areas from your course materials.
+                    </p>
+                    <a href="vocabulary.html" class="text-green-600 hover:text-green-800 font-medium inline-flex items-center">
+                        Browse Vocabulary
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Grammar Card -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden transition duration-300 card-hover">
+                <div class="bg-purple-600 text-white p-4 flex items-center justify-center">
+                    <i class="fas fa-pencil-alt text-3xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Grammar</h3>
+                    <p class="text-gray-600 mb-4">
+                        Review comprehensive explanations of 11 grammar topics with examples.
+                    </p>
+                    <a href="grammar.html" class="text-purple-600 hover:text-purple-800 font-medium inline-flex items-center">
+                        Study Grammar
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Exercises Card -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden transition duration-300 card-hover lg:col-start-2">
+                <div class="bg-orange-500 text-white p-4 flex items-center justify-center">
+                    <i class="fas fa-tasks text-3xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Exercises</h3>
+                    <p class="text-gray-600 mb-4">
+                        Test your understanding with practice exercises for each grammar topic.
+                    </p>
+                    <a href="exercises.html" class="text-orange-500 hover:text-orange-700 font-medium inline-flex items-center">
+                        Try Exercises
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Test Day Tips -->
+        <div class="bg-yellow-50 rounded-xl shadow-md p-6 md:p-8 mb-12">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-gray-800 flex items-center">
+                <span class="text-yellow-500 mr-3"><i class="fas fa-lightbulb"></i></span>
+                Test Day Tips
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mr-2 mt-1"><i class="fas fa-star"></i></span>
+                        <span>Get a good night's sleep before the test</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mr-2 mt-1"><i class="fas fa-star"></i></span>
+                        <span>Arrive early to reduce stress</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mr-2 mt-1"><i class="fas fa-star"></i></span>
+                        <span>Read instructions carefully</span>
+                    </li>
+                </ul>
+                <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mr-2 mt-1"><i class="fas fa-star"></i></span>
+                        <span>Manage your time effectively during the test</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mr-2 mt-1"><i class="fas fa-star"></i></span>
+                        <span>Stay calm and focused throughout</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mr-2 mt-1"><i class="fas fa-star"></i></span>
+                        <span>Review your answers if time permits</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Final Message -->
+        <div class="text-center">
+            <p class="text-lg text-gray-600 mb-4">
+                Remember to adjust your study plan based on your progress and needs.
+            </p>
+            <p class="font-medium text-gray-800">
+                Good luck with your C1 English test!
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4">© 2025 C1 English Test Preparation</p>
+            <div class="flex justify-center space-x-4">
+                <a href="study-plan.html" class="text-gray-300 hover:text-white transition duration-300">Study Plan</a>
+                <a href="vocabulary.html" class="text-gray-300 hover:text-white transition duration-300">Vocabulary</a>
+                <a href="grammar.html" class="text-gray-300 hover:text-white transition duration-300">Grammar</a>
+                <a href="exercises.html" class="text-gray-300 hover:text-white transition duration-300">Exercises</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

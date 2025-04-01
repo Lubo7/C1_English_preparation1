@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C1 English - Modality Grammar</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Modern Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <span class="text-blue-600 text-2xl"><i class="fas fa-graduation-cap"></i></span>
+                    <a href="index.html" class="text-xl font-bold text-gray-800 hover:text-blue-600 transition duration-300">C1 English Prep</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-500 hover:text-blue-600 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="study-plan.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Study Plan</a>
+                    <a href="vocabulary.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Vocabulary</a>
+                    <a href="grammar.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Grammar</a>
+                    <a href="exercises.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Exercises</a>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="md:hidden hidden pb-4">
+                <a href="study-plan.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Study Plan</a>
+                <a href="vocabulary.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Vocabulary</a>
+                <a href="grammar.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Grammar</a>
+                <a href="exercises.html" class="block py-2 px-4 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded transition duration-300">Exercises</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold mb-6">Modality in English</h1>
+        
+        <div class="bg-white rounded-xl shadow-md p-6 md:p-8 mb-8">
+            <p class="text-gray-600 leading-relaxed mb-4">
+                This page explains modal verbs and expressions in English, a key grammar area in your C1 English course. 
+                Understanding modality will help you express degrees of certainty, obligation, permission, and ability accurately in your exam.
+            </p>
+            
+            <div class="flex items-center mb-4">
+                <span class="text-teal-500 mr-3"><i class="fas fa-arrow-circle-left"></i></span>
+                <a href="grammar.html" class="text-teal-600 hover:text-teal-800 transition duration-300">Back to Grammar Topics</a>
+            </div>
+        </div>
+
+        <div class="mb-8 bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-teal-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">Overview of Modal Verbs</h2>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-600 mb-6">
+                    Modal verbs are auxiliary verbs that express modality – that is, they indicate the speaker's attitude toward the action or state described by the main verb. They express concepts such as possibility, probability, necessity, obligation, permission, ability, and advice.
+                </p>
+                
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-white border border-gray-200">
+                        <thead>
+                            <tr>
+                                <th class="py-3 px-4 bg-teal-50 text-left text-teal-600 font-semibold border-b">Modal Verb</th>
+                                <th class="py-3 px-4 bg-teal-50 text-left text-teal-600 font-semibold border-b">Main Uses</th>
+                                <th class="py-3 px-4 bg-teal-50 text-left text-teal-600 font-semibold border-b">Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="py-3 px-4 border-b font-medium">Can</td>
+                                <td class="py-3 px-4 border-b">Ability, possibility, permission</td>
+                                <td class="py-3 px-4 border-b">I can speak three languages.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 border-b font-medium">Could</td>
+                                <td class="py-3 px-4 border-b">Past ability, possibility, polite requests</td>
+                                <td class="py-3 px-4 border-b">Could you help me with this?</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 border-b font-medium">May</td>
+                                <td class="py-3 px-4 border-b">Possibility, permission (formal)</td>
+                                <td class="py-3 px-4 border-b">It may rain later today.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 border-b font-medium">Might</td>
+                                <td class="py-3 px-4 border-b">Possibility (less certain than may)</td>
+                                <td class="py-3 px-4 border-b">She might not come to the party.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 border-b font-medium">Must</td>
+                                <td class="py-3 px-4 border-b">Obligation, necessity, strong probability</td>
+                                <td class="py-3 px-4 border-b">You must submit your application by Friday.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 border-b font-medium">Should</td>
+                                <td class="py-3 px-4 border-b">Advice, recommendation, expectation</td>
+                                <td class="py-3 px-4 border-b">You should exercise regularly.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 border-b font-medium">Will</td>
+                                <td class="py-3 px-4 border-b">Future actions, predictions, promises</td>
+                                <td class="py-3 px-4 border-b">I will call you tomorrow.</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 border-b font-medium">Would</td>
+                                <td class="py-3 px-4 border-b">Hypothetical situations, polite requests</td>
+                                <td class="py-3 px-4 border-b">Would you mind opening the window?</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 border-b font-medium">Shall</td>
+                                <td class="py-3 px-4 border-b">Suggestions, offers, formal future (British English)</td>
+                                <td class="py-3 px-4 border-b">Shall we go for a walk?</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 border-b font-medium">Ought to</td>
+                                <td class="py-3 px-4 border-b">Advice, moral obligation (similar to should)</td>
+                                <td class="py-3 px-4 border-b">You ought to apologize to her.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="mt-6 p-4 bg-teal-50 rounded">
+                    <h3 class="text-lg font-medium mb-2 text-teal-700">Key Characteristics of Modal Verbs:</h3>
+                    <ul class="list-disc pl-6 text-gray-600 space-y-1">
+                        <li>They are followed by the base form of the verb without 'to'</li>
+                        <li>They do not change form for different subjects (no -s in third person singular)</li>
+                        <li>They don't have infinitive or -ing forms</li>
+                        <li>They form questions and negatives without 'do'</li>
+                        <li>They are used with 'have + past participle' to refer to the past</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8 bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-teal-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">Expressing Ability</h2>
+            </div>
+            <div class="p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                            <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                            Can and Could
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            We use 'can' and 'could' to express ability:
+                        </p>
+                        <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                            <li><strong>Present ability</strong>:
+                                <br><em>"I can speak French fluently."</em></li>
+                            <li><strong>Past ability</strong>:
+                                <br><em>"When I was younger, I could run much faster."</em></li>
+                            <li><strong>Future ability</strong> (with 'be able to'):
+                                <br><em>"After the course, I will be able to communicate in Spanish."</em></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                            <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                            Be Able To
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            We use 'be able to' when we need forms that 'can' doesn't have:
+                        </p>
+                        <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                            <li><strong>Infinitive</strong>:
+                                <br><em>"I want to be able to speak Japanese by next year."</em></li>
+                            <li><strong>Perfect forms</strong>:
+                                <br><em>"She has been able to solve complex problems since childhood."</em></li>
+                            <li><strong>Future forms</strong>:
+                                <br><em>"They will be able to attend the conference next month."</em></li>
+                            <li><strong>Specific achievement</strong> in the past:
+                                <br><em>"Despite the difficulties, we were able to complete the project on time."</em> (not "could complete")</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8 bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-teal-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">Expressing Possibility and Probability</h2>
+            </div>
+            <div class="p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                            <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                            May and Might
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            We use 'may' and 'might' to express possibility:
+                        </p>
+                        <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                            <li><strong>May</strong> (50-70% certainty):
+                                <br><em>"She may arrive late due to traffic."</em></li>
+                            <li><strong>Might</strong> (30-50% certainty):
+                                <br><em>"It might rain later, but I'm not sure."</em></li>
+                            <li><strong>Past possibility</strong>:
+                                <br><em>"They may/might have missed their flight."</em></li>
+                        </ul>
+                        <div class="mt-4 p-3 bg-teal-50 rounded">
+                            <p class="text-gray-700 italic">
+                                <strong>Note:</strong> In modern English, the difference between 'may' and 'might' is often subtle. 'Might' can suggest a slightly lower degree of possibility than 'may'.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                            <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                            Could and Can
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            We also use 'could' and 'can' to express possibility:
+                        </p>
+                        <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                            <li><strong>Could</strong> (similar to 'might'):
+                                <br><em>"This could be the solution to our problem."</em></li>
+                            <li><strong>Past possibility</strong>:
+                                <br><em>"She could have forgotten about the meeting."</em></li>
+                            <li><strong>Can</strong> (general possibility):
+                                <br><em>"Accidents can happen to anyone."</em></li>
+                            <li><strong>Cannot/can't</strong> (impossibility):
+                                <br><em>"That can't be true! He was with me at the time."</em></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-6">
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                        Must and Can't for Deduction
+                    </h3>
+                    <p class="text-gray-600 mb-3">
+                        We use 'must' and 'can't' to express logical deduction:
+                    </p>
+                    <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                        <li><strong>Must</strong> (positive deduction, 90-100% certainty):
+                            <br><em>"You must be tired after such a long journey."</em> (I'm almost certain you are tired)</li>
+                        <li><strong>Can't/couldn't</strong> (negative deduction, 90-100% certainty):
+                            <br><em>"She can't be at home. I just saw her at the supermarket."</em> (I'm almost certain she is not at home)</li>
+                        <li><strong>Past deduction</strong>:
+                            <br><em>"He must have left early." / "They can't have known about the change in plans."</em></li>
+                    </ul>
+                </div>
+                
+                <div class="mt-6 p-4 bg-teal-50 rounded">
+                    <h3 class="text-lg font-medium mb-2 text-teal-700">Scale of Certainty:</h3>
+                    <div class="relative h-12 bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 rounded-lg mb-2">
+                        <div class="absolute -bottom-6 left-0 text-xs">0%</div>
+                        <div class="absolute -bottom-6 left-1/4 text-xs">25%</div>
+                        <div class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 text-xs">50%</div>
+                        <div class="absolute -bottom-6 left-3/4 text-xs">75%</div>
+                        <div class="absolute -bottom-6 right-0 text-xs">100%</div>
+                    </div>
+                    <div class="mt-8 grid grid-cols-5 gap-2 text-center text-sm">
+                        <div>
+                            <span class="font-bold">Can't be</span>
+                            <br>Impossible
+                        </div>
+                        <div>
+                            <span class="font-bold">Might not be</span>
+                            <br>Unlikely
+                        </div>
+                        <div>
+                            <span class="font-bold">Could be</span>
+                            <br>Possible
+                        </div>
+                        <div>
+                            <span class="font-bold">May well be</span>
+                            <br>Probable
+                        </div>
+                        <div>
+                            <span class="font-bold">Must be</span>
+                            <br>Certain
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8 bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-teal-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">Expressing Obligation and Necessity</h2>
+            </div>
+            <div class="p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                            <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                            Must and Have To
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            We use 'must' and 'have to' to express obligation:
+                        </p>
+                        <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                            <li><strong>Must</strong> (personal obligation, speaker's authority):
+                                <br><em>"I must finish this report today."</em> (I'm imposing this on myself)</li>
+                            <li><strong>Have to</strong> (external obligation):
+                                <br><em>"I have to wear a uniform at work."</em> (The company requires it)</li>
+                            <li><strong>Past obligation</strong>:
+                                <br><em>"I had to work late yesterday."</em> (not "must")</li>
+                            <li><strong>Future obligation</strong>:
+                                <br><em>"You will have to submit your application by next week."</em></li>
+                        </ul>
+                        <div class="mt-4 p-3 bg-teal-50 rounded">
+                            <p class="text-gray-700 italic">
+                                <strong>Note:</strong> In negative forms, 'must not' and 'don't have to' have very different meanings:
+                                <br>- "You must not tell anyone" = prohibition (don't do it)
+                                <br>- "You don't have to tell anyone" = lack of obligation (it's your choice)
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                            <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                            Should, Ought To, and Need To
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            We use these modals for less strong obligation or necessity:
+                        </p>
+                        <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                            <li><strong>Should/Ought to</strong> (advice, recommendation):
+                                <br><em>"You should exercise regularly."</em>
+                                <br><em>"You ought to see a doctor about that cough."</em></li>
+                            <li><strong>Need to</strong> (necessity):
+                                <br><em>"I need to buy some groceries."</em></li>
+                            <li><strong>Past forms</strong>:
+                                <br><em>"You should have told me earlier."</em> (but you didn't)
+                                <br><em>"I needed to finish the project yesterday."</em></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-6">
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                        Be Supposed To
+                    </h3>
+                    <p class="text-gray-600 mb-3">
+                        We use 'be supposed to' to express expectation or arrangement:
+                    </p>
+                    <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                        <li><strong>Expected behavior</strong>:
+                            <br><em>"You're supposed to turn off your phone during the performance."</em></li>
+                        <li><strong>Arrangement</strong>:
+                            <br><em>"The delivery is supposed to arrive before noon."</em></li>
+                        <li><strong>Unfulfilled expectation</strong> (past):
+                            <br><em>"They were supposed to call, but they didn't."</em></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8 bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-teal-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">Expressing Permission and Prohibition</h2>
+            </div>
+            <div class="p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                            <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                            Can, Could, and May
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            We use these modals to express permission:
+                        </p>
+                        <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                            <li><strong>Can</strong> (informal permission):
+                                <br><em>"You can use my laptop if you need to."</em></li>
+                            <li><strong>Could</strong> (more polite request for permission):
+                                <br><em>"Could I leave early today?"</em></li>
+                            <li><strong>May</strong> (formal permission):
+                                <br><em>"May I come in?"</em>
+                                <br><em>"Students may use the library until 10 PM."</em></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                            <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                            Must Not, Can't, and May Not
+                        </h3>
+                        <p class="text-gray-600 mb-3">
+                            We use these modals to express prohibition:
+                        </p>
+                        <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                            <li><strong>Must not/Mustn't</strong> (strong prohibition):
+                                <br><em>"Visitors must not feed the animals."</em></li>
+                            <li><strong>Can't/Cannot</strong> (prohibition, often rules or laws):
+                                <br><em>"You can't park here between 8 AM and 6 PM."</em></li>
+                            <li><strong>May not</strong> (formal prohibition):
+                                <br><em>"Candidates may not bring mobile phones into the examination room."</em></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-6">
+                    <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                        <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                        Be Allowed To
+                    </h3>
+                    <p class="text-gray-600 mb-3">
+                        We use 'be allowed to' when we need forms that 'can' doesn't have:
+                    </p>
+                    <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                        <li><strong>Past permission</strong>:
+                            <br><em>"We were allowed to leave early yesterday."</em></li>
+                        <li><strong>Future permission</strong>:
+                            <br><em>"Visitors will be allowed to take photographs in the museum starting next month."</em></li>
+                        <li><strong>Perfect forms</strong>:
+                            <br><em>"They haven't been allowed to access that information."</em></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8 bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-teal-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">Modal Perfects</h2>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-600 mb-4">
+                    Modal perfects (modal verb + have + past participle) are used to talk about the past. They often express speculation about past events or criticize past actions.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                            <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                            Speculation about the Past
+                        </h3>
+                        <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                            <li><strong>Must have</strong> (certainty):
+                                <br><em>"She must have arrived by now."</em> (I'm almost certain she has arrived)</li>
+                            <li><strong>May/Might have</strong> (possibility):
+                                <br><em>"They might have missed their train."</em> (It's possible they missed it)</li>
+                            <li><strong>Could have</strong> (possibility):
+                                <br><em>"He could have forgotten about our meeting."</em> (It's possible he forgot)</li>
+                            <li><strong>Can't/Couldn't have</strong> (impossibility):
+                                <br><em>"She can't have seen me. She was looking the other way."</em> (I'm certain she didn't see me)</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-medium mb-3 text-gray-800 flex items-center">
+                            <span class="text-teal-500 mr-2"><i class="fas fa-check-circle"></i></span>
+                            Criticism or Regret
+                        </h3>
+                        <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                            <li><strong>Should have</strong> (advisable action not taken):
+                                <br><em>"You should have called me."</em> (but you didn't)</li>
+                            <li><strong>Shouldn't have</strong> (inadvisable action taken):
+                                <br><em>"I shouldn't have eaten so much."</em> (but I did)</li>
+                            <li><strong>Could have</strong> (missed opportunity):
+                                <br><em>"We could have won the match."</em> (but we didn't)</li>
+                            <li><strong>Needn't have</strong> (unnecessary action taken):
+                                <br><em>"You needn't have bought so much food."</em> (but you did)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-6 p-4 bg-teal-50 rounded">
+                    <h3 class="text-lg font-medium mb-2 text-teal-700">Important Distinctions:</h3>
+                    <ul class="list-disc pl-6 text-gray-600 space-y-2">
+                        <li><strong>Didn't need to</strong> vs. <strong>Needn't have</strong>:
+                            <br>- "I didn't need to finish the report yesterday." (and I didn't do it)
+                            <br>- "I needn't have finished the report yesterday." (but I did do it, unnecessarily)</li>
+                        <li><strong>Could have</strong> vs. <strong>Was/Were able to</strong>:
+                            <br>- "I could have attended the meeting." (but I didn't)
+                            <br>- "I was able to attend the meeting." (and I did)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8 bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-teal-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">Common Mistakes with Modal Verbs</h2>
+            </div>
+            <div class="p-6">
+                <div class="space-y-4">
+                    <div class="p-3 bg-red-50 rounded">
+                        <p class="text-red-700 font-medium">Incorrect: I must to go now.</p>
+                        <p class="text-green-700 font-medium">Correct: I must go now.</p>
+                        <p class="text-gray-600 mt-1">Remember: Modal verbs are followed by the base form without 'to'.</p>
+                    </div>
+                    
+                    <div class="p-3 bg-red-50 rounded">
+                        <p class="text-red-700 font-medium">Incorrect: She cans speak French.</p>
+                        <p class="text-green-700 font-medium">Correct: She can speak French.</p>
+                        <p class="text-gray-600 mt-1">Remember: Modal verbs don't change form for different subjects.</p>
+                    </div>
+                    
+                    <div class="p-3 bg-red-50 rounded">
+                        <p class="text-red-700 font-medium">Incorrect: I don't must work tomorrow.</p>
+                        <p class="text-green-700 font-medium">Correct: I don't have to work tomorrow. OR I mustn't work tomorrow.</p>
+                        <p class="text-gray-600 mt-1">Remember: 'Must' forms negatives without 'do'. 'Don't have to' means no obligation, while 'mustn't' means prohibition.</p>
+                    </div>
+                    
+                    <div class="p-3 bg-red-50 rounded">
+                        <p class="text-red-700 font-medium">Incorrect: I will can drive after I get my license.</p>
+                        <p class="text-green-700 font-medium">Correct: I will be able to drive after I get my license.</p>
+                        <p class="text-gray-600 mt-1">Remember: Two modal verbs cannot be used together. Use 'be able to' after 'will'.</p>
+                    </div>
+                    
+                    <div class="p-3 bg-red-50 rounded">
+                        <p class="text-red-700 font-medium">Incorrect: You should to visit Paris.</p>
+                        <p class="text-green-700 font-medium">Correct: You should visit Paris.</p>
+                        <p class="text-gray-600 mt-1">Remember: Modal verbs are followed by the base form without 'to'.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-8 bg-white rounded-xl shadow-md overflow-hidden">
+            <div class="bg-teal-600 text-white p-4">
+                <h2 class="text-2xl font-semibold">Practice Your Skills</h2>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-600 mb-4">
+                    Now that you understand modal verbs and expressions, practice your skills with our exercises:
+                </p>
+                
+                <div class="flex flex-col md:flex-row gap-4">
+                    <a href="exercises-modality.html" class="bg-teal-600 text-white hover:bg-teal-700 px-6 py-3 rounded-lg inline-flex items-center transition duration-300 shadow-md">
+                        <i class="fas fa-pencil-alt mr-2"></i>
+                        Modality Exercises
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-8 mb-8">
+            <a href="grammar.html" class="bg-teal-600 text-white hover:bg-teal-700 px-6 py-3 rounded-lg inline-flex items-center transition duration-300 shadow-md">
+                <i class="fas fa-arrow-left mr-2"></i>
+                Back to Grammar Topics
+            </a>
+        </div>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4">© 2025 C1 English Test Preparation</p>
+            <div class="flex justify-center space-x-4">
+                <a href="index.html" class="text-gray-300 hover:text-white transition duration-300">Home</a>
+                <a href="study-plan.html" class="text-gray-300 hover:text-white transition duration-300">Study Plan</a>
+                <a href="vocabulary.html" class="text-gray-300 hover:text-white transition duration-300">Vocabulary</a>
+                <a href="exercises.html" class="text-gray-300 hover:text-white transition duration-300">Exercises</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
